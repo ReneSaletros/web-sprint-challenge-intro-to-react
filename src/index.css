@@ -2,6 +2,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url('./images/sw-bg.jpg');
+  background-image: url('./images/sw-bg1.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Star Wars';
+}
+
+@font-face {
+  font-family: "Star Wars";
+  src: local("Star Wars"),
+    url("./images/starwarsFont.ttf") format("truetype");
+  font-weight: normal;
 }
